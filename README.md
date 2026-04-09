@@ -2,7 +2,9 @@
 
 ## Nomes dos Integrantes
 1 - Analistas:<br>Ester e Auryanny
+
 2 - Frontend:<br>Isabela
+
 3 - Backend:<br>Fernando
 
 
