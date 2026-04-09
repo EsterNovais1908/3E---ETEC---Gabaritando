@@ -1,9 +1,9 @@
 # 3E---ETEC---Gabaritando
 
 ## Nomes dos Integrantes
--1 - Analistas:
--2 - Frontend:
--3 - Backend:
+-1 - Analistas: <br>
+-2 - Frontend: <br>
+-3 - Backend: <br>
 
 
 O portal da Escola Tiradentes é uma plataforma estratégica pautada na meritocracia, desenhada para transformar o desempenho acadêmico em uma jornada de reconhecimento e superação. Através de um sistema transparente, o site organiza classificações por sala, por companhia — abrangendo do 7º ano do Ensino Fundamental ao 3º ano do Ensino Médio — e um ranking geral que destaca o Top 100 de toda a instituição. A excelência é valorizada por meio de certificações para os três melhores de cada turma e premiações especiais para os cinco primeiros de cada companhia, fomentando uma competição saudável que incentiva a dedicação contínua.
