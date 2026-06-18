@@ -1,0 +1,45 @@
+const app = require('./app');
+
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+
+console.log(`Servidor rodando na porta ${PORT}`);
+
+});
+const express = require('express');
+
+const cors = require('cors');
+
+const authRoutes = require('./modules/auth/routes/auth.routes');
+
+const alunoRoutes = require('./modules/alunos/routes/aluno.routes');
+
+const professorRoutes = require('./modules/professores/routes/professor.routes');
+
+const iaRoutes = require('./modules/ia/routes/ia.routes');
+
+const app = express();
+
+app.use(cors());
+
+app.use(express.json());
+
+app.use('/api/auth', authRoutes);
+
+app.use('/api/alunos', alunoRoutes);
+
+app.use('/api/professores', professorRoutes);
+
+app.use('/api/ia', iaRoutes);
+
+module.exports = app;
+DATABASE_URL="postgresql://usuario:senha@localhost:5432/gabaritando"
+
+JWT_SECRET="senha_super_secreta"
+
+PORT=3000
+
+REDIS_URL="redis://localhost:6379"
+
+OPENAI_API_KEY="sua_chave"
